@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="top">
         <div className="item">
           <h1>Categories</h1>
-          <span>Women</span>
-          <span>Men</span>
-          <span>Shoes</span>
-          <span>Accessories</span>
-          <span>New Arrivals</span>
+          <span>Blouse</span>
+          <span>Bag</span>
+          <span>Heels</span>
+          <span>Skirt</span>
+          <span>Boots</span>
         </div>
         <div className="item">
           <h1>Links</h1>
@@ -42,7 +42,7 @@ const Footer = () => {
       </div>
       <div className="bottom">
         <div className="left">
-          <span className="logo">Lamastore</span>
+          <span className="logo">Fashion Store</span>
           <span className="copyright">
             © Copyright 2023. All Rights Reserved
           </span>

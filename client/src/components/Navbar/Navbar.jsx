@@ -29,14 +29,20 @@ const Navbar = () => {
             <KeyboardArrowDownIcon />
           </div> */}
           <div className="item">
-            <Link className ="link" to="/products/1">Women</Link>
-          </div>
-          {/* <div className="item">
-            <Link className ="link" to="/products/2">Men</Link>
+            <Link className ="link" to="/products/1">blouse</Link>
           </div>
           <div className="item">
-            <Link className ="link" to="/products/3">Children</Link>
-          </div> */}
+            <Link className ="link" to="/products/2">skirt</Link>
+          </div>
+          <div className="item">
+            <Link className ="link" to="/products/5">heels</Link>
+          </div>
+          <div className="item">
+            <Link className ="link" to="/products/4">bag</Link>
+          </div>
+          <div className="item">
+            <Link className ="link" to="/products/3">boots</Link>
+          </div>
         </div>
         <div className="right">
           <div className="item">
