@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="left">
           <div className="center">
-            <Link className ="link" to="/">FASHION STORE</Link>
+            <Link className ="link" to="/">fashion store</Link>
           </div>
           {/* <div className="item">
             <img src="/img/en.png" alt="" />
@@ -45,18 +45,18 @@ const Navbar = () => {
           </div>
         </div>
         <div className="right">
-          <div className="item">
+          
             <Link className ="link" to="/">Home</Link>
-          </div>
-          <div className="item">
+         
+          
             <Link className ="link" to="/">About</Link>
-          </div>
-          <div className="item">
+          
+          
             <Link className ="link" to="/">Contact</Link>
-          </div>
-          <div className="item">
+         
+          
             <Link className ="link" to="/">Stores</Link>
-          </div>
+          
           <div className="icons">
             <SearchIcon/>
             <PersonOutlineOutlinedIcon/>

@@ -7,10 +7,14 @@
     align-items: center;
     justify-content: space-between;
 
+    .link {
+      text-transform: uppercase;
+    }
+
     .item {
       display: flex;
       align-items: center;
-      font-size: 18px;
+      font-size: 12px;
     }
 
     .left {
