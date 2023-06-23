@@ -5,20 +5,20 @@ import { Link } from "react-router-dom";
 const Card = ({ item }) => {
   console.log(item);
   return (
-    <Link className="link" to={`/product/${item.id}`}>
-      <div className="card">
+    <Link className="col-12 col-md-4 gap-3" to={`/product/${item.id}`}>
+      <div className="card-show">
         <div className="image">
           {item?.attributes.isNew && <span>New Season</span>}
           <img
-            src={
-              process.env.REACT_APP_UPLOAD_URL + item.attributes?.img?.data?.attributes?.url
+            src={process.env.REACT_APP_UPLOAD_URL +
+               item.attributes?.img?.data?.attributes?.url
             }
             alt=""
             className="mainImg"
           />
           <img
-            src={
-              process.env.REACT_APP_UPLOAD_URL + item.attributes?.img2?.data?.attributes?.url
+            src={process.env.REACT_APP_UPLOAD_URL +
+               item.attributes?.img2?.data?.attributes?.url
             }
             alt=""
             className="secondImg"
